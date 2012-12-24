@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Faux Snow BRK";
+    src: local("☺"), url("fauxsnow.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.snow{font-family:"Faux Snow BRK";font-size:80px;color:white;}
+
+body{
+height:1100px;
+background:-webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(1, rgb(32,132,202)),
+    color-stop(0, rgb(16,16,32))
+);
+}
